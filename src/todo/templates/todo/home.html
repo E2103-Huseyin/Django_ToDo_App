@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Todo App</h1>
+<a href="{% url 'list' %}"><button>Go List</button></a>
+<a href="{% url 'add' %}"><button>Add ToDo</button></a>
+{% endblock content %}
