@@ -1,35 +1,15 @@
 
 {% extends 'base.html' %}
 {% load static %}
-{% block stylesheet %}
-
-    
+{% block stylesheet %}   
   
 <link rel="stylesheet"  href="{%  static  'css/style.css'  %}">
      
-
-    
+ 
 {% endblock %}
 
 {% block content %}
-<div>
-    <ul class="nav justify-content-end nav-div">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{% url 'list' %}">My List</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{% url 'add' %}">Create List</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="{% url 'add' %}">
-                <img src="https://cdn3.iconfinder.com/data/icons/education-209/64/paper-clip-academic-note-exam-256.png" class="nav-img" alt="...">
-            </a>
-        </li>
-      </ul>
-</div>
+
 <div class="container main-div">
     <div class="row justify-content-md-center button-div">
         <div class="col col-lg-2">

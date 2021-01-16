@@ -34,3 +34,37 @@
     padding-top: 80px;
     font-size: 80px;
 }
+
+
+/* add todo style */
+
+.form-style{
+
+    /* background-color: red; */
+    width: 200px;
+
+}
+
+.btn-div{
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    
+}
+.h2-div{
+    margin: auto;
+    text-align: center;
+    
+}
+.create-div{
+    margin-top: 50px;
+}
+.input-div{
+    width: 50%;
+    border:5px solid black;
+    border-radius: 20px 90px 60px 10px;
+    margin: auto;
+    padding: 50px;
+    background-image: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+}

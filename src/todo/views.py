@@ -20,6 +20,8 @@ def todo_list(request):
 def todo_create(request):
     form = TodoAddForm()
     
+    
+    
     if request.method == 'POST':
         form = TodoAddForm(request.POST)
         if form.is_valid():

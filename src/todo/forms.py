@@ -6,6 +6,11 @@ class TodoAddForm(forms.ModelForm):
         model = Todo
         fields = ('title',)
         
+        widgets = {
+            'title' : forms.TextInput(attrs={'class':'form-control', 'id':'floatingInput', 'placeholder':'my_title' }),
+            
+        }
+        
         
 class TodoUpdateForm(forms.ModelForm):
     class Meta:
