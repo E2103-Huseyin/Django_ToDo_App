@@ -1,0 +1,36 @@
+.nav-div {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    border: 2px solid black;
+    height: 70px;
+    width: 90%;
+    margin: auto;
+}
+.nav-img{
+    width: 50px;
+    height: 50px;
+    
+
+}
+
+.main-div{
+    background-image: url("https://images.unsplash.com/photo-1532618500676-2e0cbf7ba8b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1307&q=80");
+    height: 700px;
+    width: 90%;
+}
+.button-div{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-color: rgba(255,255,255,0.5);
+    /* justify-self: center; */
+    text-align: center;
+    border-radius: 0px 0px 30px 30px ;
+
+}
+.example {
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 80px;
+    font-size: 80px;
+}
